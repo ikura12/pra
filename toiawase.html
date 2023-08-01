@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせフォーム</title>
+    <link rel="stylesheet" href="css/toiawase.css">
+    <script src="https://kit.fontawesome.com/1e08e647c9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>お問い合わせフォーム</h1>
+    <form action="20122011@kaishi-pu.ac.jp" enctype="text/plain" method="POST">
+    <td><a href="index.html"><h2>戻る</h2></a></td>
+    <p>全てのフィールドを入力してください。</p>
+    <fieldset>
+        <legend>個人情報</legend>
+        <table class="main">
+            <tr>
+                <td bgcolor="#E5E8E8"><label for="">お名前</label></td>
+                <td colspan="3">
+                    <div class="form-item">
+                        <input type="text" size="33" placeholder="開志太郎">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#E5E8E8"><label for="">フリガナ</label></td>
+                <td>
+                    <div class="form-item">
+                        <input type="text" size="33" placeholder="カイシタロウ">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#E5E8E8"><label for="">住所</label></td>
+                <td colspan="3"><textarea name="" id="" cols="30" rows="2"></textarea></td>
+
+            </tr>
+            <tr>
+                <td bgcolor="#E5E8E8"><label for="">E-mail</label></td>
+                <td colspan="3">
+                <div class="form-item">
+                <input type="text" placeholder="info@example.">
+                <i class="fa-solid fa-square-envelope"></i>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#E5E8E8"><label for="">電話番号</label></td>
+                <td colspan="4">
+                    <div class="form-item">
+                    <input type="text" name="" id="" size="30" placeholder="(025)-111-1234">
+                    <i class="fa-solid fa-phone"></i>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <label for="">性別</label>
+        <input type="radio" name="g"> 男
+        <input type="radio" name="g"> 女
+        <input type="radio" name="g"> 他
+        <br>
+    <label for="">誕生日</label>
+    <input type="date">
+    </fieldset>
+    <fieldset>
+        <p>どの学部に対するお問い合わせかを選択して下さい。</p>
+        <input type="checkbox">全ての学部<br>
+        <input type="checkbox">事業創造学部<br>
+        <input type="checkbox">情報学部<br>
+        <input type="checkbox">アニメ・マンガ学部
+    </fieldset>
+    <fieldset>
+        <legend>お問い合わせ内容</legend>
+        <p>お問い合わせの内容を記入して下さい。</p>
+        <textarea name="" id="" cols="30" rows="15"></textarea>
+    </fieldset>
+    <button type="submit">送信</button>
+    </form>
+</body>
+</html>

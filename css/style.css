@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: rgb(226, 133, 67);
+}
+header{
+    background: rgb(226, 133, 67);
+    text-align: center;
+    padding: 30px;
+}
+header h3{
+    text-align: right;
+}
+.top img{
+    width: 100%;
+}
+.home{
+    text-align: center;
+}
+.block{
+    float: left;
+    border-radius: 2em;
+    width: 400px;
+    border: 1px solid rgb(246, 42, 42);
+    padding: 10px;
+    background-color: rgb(238, 237, 234);
+    margin-left: 520px;
+}
+.block h3{
+    background-color: rgb(245, 133, 4);
+    border-radius: 1em;
+    width: 100%;
+    padding-left: 8px;
+    height: 50px;
+    font-size: 20px;
+}
+.block p{
+    background-color: rgb(238, 237, 234);
+}

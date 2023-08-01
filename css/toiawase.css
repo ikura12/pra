@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: right;
+}
+
+input[type=text]{
+    background-color: rgb(252, 204, 115);
+    padding: 2px 20px;
+}
+textarea{
+    background-color: rgb(252, 204, 115);
+}
+fieldset{
+    border: solid rgb(255, 189, 67);
+}
+.form-item{
+    position: relative;
+}
+.form-item .fa-solid{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    color: orange;
+}
